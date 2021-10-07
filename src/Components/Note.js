@@ -5,7 +5,7 @@ const Note = () => {
         <div className="note">
             <span>Hello! this is our first note</span>
             <div className="note-footer">
-                <small>13/04/2021</small>
+                <p>10/07/21</p>
                 <MdDeleteForever className='delete-icon' size='1.3em'/>
             </div>
         </div>
