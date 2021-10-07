@@ -57,10 +57,32 @@ textarea:focus{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap; /*keep any space that was added to the text*/
 }
 
 .note-footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon{
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(233,233,233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+.search input{
+  border: none;
+  background-color:rgb(233,233,233);
+  
+}
+.search input:focus{
+    outline: none;
 }
